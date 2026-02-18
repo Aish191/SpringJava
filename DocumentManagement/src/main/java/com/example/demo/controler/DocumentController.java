@@ -15,6 +15,7 @@ public class DocumentController {
 		DocumentCotrolIerInterface d = new ExcelService();
 		d.readDataFromDb();
 		d.processData();
+		d.add();
 		return d.print();
 		
 	}

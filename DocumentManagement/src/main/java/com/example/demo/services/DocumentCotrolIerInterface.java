@@ -8,4 +8,4 @@ public interface DocumentCotrolIerInterface
 	public void processData();
 	
 	public String print();
-}
+	public String add();}
